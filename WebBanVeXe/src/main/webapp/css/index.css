@@ -1,0 +1,116 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	box-sizing: border-box;
+	width: 100vw;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.head{
+	background-color:  #4c6fff;
+}
+.items{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.items a{
+	color: white;
+	padding: 20px;
+}
+.items a:hover{
+	background: white;
+	color: black;
+	text-decoration: none;
+}
+.head_item{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 40px;
+	color: white;
+	text-align: left;
+}
+
+.search{	
+	min-height: 110px;
+	background-color: #f8c13b;
+	border-radius: 10px;
+	width: 80%;
+}
+.search_items{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+}
+.search_items input{
+	height: 35px;
+	width: 300px;
+	border-radius: 3px;
+	border: solid 0px;
+
+}
+#submit{
+	background-color: #095aa9;
+	color: white;
+	width: 100px;
+}
+.search_items input[type=text]{
+	padding-left: 20px;
+}
+.search_items i{
+	position: absolute;
+	top:8px;
+	color: #aaa;
+}
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.home-search{
+	min-height: 100px;
+	background-color: #f8c13b;
+	position: relative;
+	top: -25px;
+	border-radius: 5px;
+}
+.search-ticket{
+	padding: 20px 30px;
+	width: 100%
+}
+.ticket-seclect{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.ticket-seclect input{
+	border-radius: 3px;
+	border: solid 0px;
+	height: 46px;
+	width: 100%;
+	margin: 0 5px;
+}
+.icon-items{
+	color: #aaa;
+	font-size: 25px;
+	position: relative;
+	left: 30px;
+}
+input{
+	padding: 0 35px;
+	min-width: 200px;
+}
+input::-webkit-input-placeholder { color:#aaa; }
+.intro-panel{
+	width: 100%;
+	background-color:  #fafafa;
+}
+.icon-panel{
+	font-size: 50px;
+	color: #aaa;
+	float: left;
+}
