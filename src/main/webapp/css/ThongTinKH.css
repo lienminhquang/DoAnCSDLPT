@@ -1,0 +1,44 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	box-sizing: border-box;
+	width: 100vw;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.head{
+	background-color:  #4c6fff;
+}
+.items{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.items a{
+	color: white;
+	padding: 20px;
+}
+.items a:hover{
+	background: white;
+	color: black;
+	text-decoration: none;
+}
+.head_item{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 40px;
+	color: white;
+	text-align: left;
+}
+.form {
+  text-align: center;
+  height: 100%;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+  padding: 50px 30px 30px;
+}
+.form th{
+	padding: 10px 0px;
+}
